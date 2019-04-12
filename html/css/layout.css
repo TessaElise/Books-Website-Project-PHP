@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 12pt;
+  border-top: 50px #03553E;
+}
+
+nav.navbar {
+  background: #03553E;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #03553E;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 50px;
+  border-top: solid 1px #000000;
+  padding-top: 10px;
+  color: #666666;
+  font-size: 0.75rem;
+}
+
+h1.detail {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666666;
+  font-weight: bold;
+}
+
+.details img {
+  width: 90%;
+  max-width: 250px;
+}
+.details label {
+  display: block;
+  font-weight: bold;
+}
+
+.new-book textarea {
+  height: 810px !important;
+}
+
+.profile-image {
+  width: 90%;
+  max-width: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/*# sourceMappingURL=layout.css.map */

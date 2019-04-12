@@ -1,0 +1,75 @@
+/* About Style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: left;
+    font-family:  sans-serif;
+    color: #222;
+    background: #f7f5f0;
+
+}
+
+/* Cover Image */
+.main-header {
+     padding-top: 450px;
+     height: 250px;
+     background: linear-gradient(#4ABDAC, transparent 90%),
+     linear-gradient(0deg, #fff, transparent),
+     #ffa949 url('../images/rotterdam.jpg') no-repeat top center;
+     background-size: cover;
+     text-align: left;
+     position: relative;
+
+
+}
+
+/* About Title */
+.title {
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+    background-color: #dfdfdf;
+    margin-top: 0;
+
+
+}
+
+/* Profile photo */
+.profile-image {
+
+    margin-top: 0;
+    padding-top: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.profile-image:hover {
+    transform: scale(1.2) rotate(360deg);
+
+}
+
+.loop {
+    list-style-type: none;
+}
+
+/* List */
+.column {
+    /*margin-left: 300px;*/
+    margin-top: 70px;
+    padding: 10px 20px 30px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 10px;
+    line-height: 1.6;
+
+}

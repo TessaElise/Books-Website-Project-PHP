@@ -1,0 +1,21 @@
+h1.detail {
+  margin-bottom: 0;
+}
+
+.subtitle{
+  font-size: 1.5rem;
+  color: #666666;
+  font-weight: bold;
+}
+
+.details {
+  img {
+    width: 90%;
+    max-width: 250px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+  }
+}
